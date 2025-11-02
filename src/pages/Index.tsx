@@ -110,11 +110,12 @@ const Index = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
           >
-            <div className="inline-block mb-4">
-              <span className="bg-primary/10 text-primary px-4 py-2 rounded-full text-sm font-semibold">
-                🎓 Trusted by 300+ Students Across India
-              </span>
-            </div>
+<div className="inline-block mb-4">
+  <span className="bg-primary/10 text-primary px-4 py-2 rounded-full text-sm font-semibold whitespace-nowrap">
+    🎓 Trusted by 300+ Students Across India
+  </span>
+</div>
+
             <h1 className="font-heading font-bold text-5xl md:text-7xl mb-6 leading-tight">
               Struggling with your
               <br />
@@ -137,16 +138,21 @@ const Index = () => {
                   <ArrowRight className="ml-2 h-5 w-5" />
                 </Link>
               </Button>
-              <Button
-                size="lg"
-                variant="outline"
-                className="font-semibold text-lg h-14 px-8 border-2 hover:border-primary"
-                onClick={() => {
-                  document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" });
-                }}
-              >
-                Contact Us
-              </Button>
+            <Button
+  size="lg"
+  variant="outline"
+  className="
+    font-semibold text-base sm:text-lg h-12 sm:h-14 
+    px-4 sm:px-6 md:px-8 
+    border-2 hover:border-primary
+  "
+  onClick={() => {
+    document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' });
+  }}
+>
+  Contact Us
+</Button>
+
             </div>
             
             {/* Stats Row */}
