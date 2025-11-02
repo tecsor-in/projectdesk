@@ -409,7 +409,7 @@ const Index = () => {
                 <Button
                   asChild
                   size="lg"
-                  className="bg-white text-primary hover:bg-white/90 font-semibold text-lg h-14 px-8 shadow-lg"
+                  className="bg-white text-primary hover:bg-white/90 font-semibold text-lg h-14 px-10 shadow-lg"
                 >
                   <Link to="/contact">
                     Contact Us Now
