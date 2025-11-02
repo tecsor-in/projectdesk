@@ -251,7 +251,7 @@ const Index = () => {
                 className="relative"
               >
                 <div className="text-center">
-                  <div className="bg-gradient-primary text-white rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-6 text-2xl font-bold shadow-lg relative z-10">
+                  <div className="bg-gradient-primary text-blue rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-6 text-2xl font-bold shadow-lg relative z-10">
                     {item.step}
                   </div>
                   <h3 className="font-heading font-semibold text-xl mb-3">
