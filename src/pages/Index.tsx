@@ -110,11 +110,13 @@ const Index = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
           >
-<div className="inline-block mb-4">
+<div className="w-full flex justify-center items-center mb-4">
   <span className="bg-primary/10 text-primary px-4 py-2 rounded-full text-sm font-semibold whitespace-nowrap">
     🎓 Trusted by 300+ Students Across India
   </span>
 </div>
+
+
 
             <h1 className="font-heading font-bold text-5xl md:text-7xl mb-6 leading-tight">
               Struggling with your
