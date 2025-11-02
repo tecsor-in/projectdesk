@@ -1,0 +1,40 @@
+[
+  {
+    "id": "web-development",
+    "title": "Web Development",
+    "description": "Build modern, responsive websites and web applications with cutting-edge technologies",
+    "icon": "Code",
+    "subdomains": [
+      "Frontend Development",
+      "Backend Development",
+      "Full Stack Development",
+      "Python Full Stack",
+      "MERN Stack"
+    ]
+  },
+  {
+    "id": "data-science",
+    "title": "Data Science & Analytics",
+    "description": "Transform data into actionable insights using advanced analytics and visualization",
+    "icon": "BarChart3",
+    "subdomains": [
+      "Data Visualization",
+      "Big Data Analytics",
+      "Data Mining",
+      "Data Cleaning & Processing",
+      "Business Intelligence"
+    ]
+  },
+  {
+    "id": "artificial-intelligence",
+    "title": "Artificial Intelligence",
+    "description": "Create intelligent systems with machine learning, deep learning, and NLP",
+    "icon": "Brain",
+    "subdomains": [
+      "Machine Learning",
+      "Deep Learning",
+      "Natural Language Processing",
+      "Computer Vision"
+    ]
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Priya Sharma",
+    "college": "VIT Vellore",
+    "project": "E-commerce Dashboard",
+    "review": "Amazing experience! The team helped me build a complete MERN stack project with all documentation. Got an A+ grade!",
+    "rating": 5
+  },
+  {
+    "id": 2,
+    "name": "Rahul Verma",
+    "college": "IIT Delhi",
+    "project": "Face Mask Detection",
+    "review": "Professional work and timely delivery. The AI model accuracy was impressive and well-documented.",
+    "rating": 5
+  },
+  {
+    "id": 3,
+    "name": "Sneha Patel",
+    "college": "BITS Pilani",
+    "project": "Student Result Prediction",
+    "review": "They explained every step clearly and provided excellent support throughout the project. Highly recommended!",
+    "rating": 5
+  },
+  {
+    "id": 4,
+    "name": "Arjun Reddy",
+    "college": "NIT Trichy",
+    "project": "Real-time Chat Application",
+    "review": "Great value for money! The chat app works flawlessly and the code is well-structured and commented.",
+    "rating": 4
+  },
+  {
+    "id": 5,
+    "name": "Ananya Krishna",
+    "college": "Anna University",
+    "project": "Resume Screening AI",
+    "review": "Perfect for my final year project! They delivered on time with complete report and presentation slides.",
+    "rating": 5
+  },
+  {
+    "id": 6,
+    "name": "Vikram Singh",
+    "college": "DTU Delhi",
+    "project": "Traffic Pattern Analysis",
+    "review": "Excellent data visualization and analysis. The project exceeded my expectations in every way!",
+    "rating": 5
+  }
+]

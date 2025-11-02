@@ -1,0 +1,169 @@
+{
+  "web-development": [
+    {
+      "id": 1,
+      "title": "Portfolio Builder Website",
+      "description": "Create a dynamic portfolio website with project showcase, contact form, and admin panel",
+      "price": 799,
+      "subdomain": "Frontend Development"
+    },
+    {
+      "id": 2,
+      "title": "Restaurant Ordering System",
+      "description": "Full-featured restaurant website with menu, cart, and online ordering system",
+      "price": 999,
+      "subdomain": "Full Stack Development"
+    },
+    {
+      "id": 3,
+      "title": "College Management Portal",
+      "description": "Comprehensive portal for student, faculty, and admin management with attendance tracking",
+      "price": 1299,
+      "subdomain": "Full Stack Development"
+    },
+    {
+      "id": 4,
+      "title": "Real-time Chat Application",
+      "description": "WebSocket-based chat app with group chats, file sharing, and typing indicators",
+      "price": 899,
+      "subdomain": "MERN Stack"
+    },
+    {
+      "id": 5,
+      "title": "E-commerce Dashboard",
+      "description": "Admin dashboard for e-commerce with analytics, product management, and order tracking",
+      "price": 1199,
+      "subdomain": "MERN Stack"
+    },
+    {
+      "id": 6,
+      "title": "Job Portal System",
+      "description": "Job listing platform with applicant tracking, resume upload, and company profiles",
+      "price": 1099,
+      "subdomain": "Python Full Stack"
+    },
+    {
+      "id": 7,
+      "title": "Event Management System",
+      "description": "Platform for creating, managing, and booking events with payment integration",
+      "price": 999,
+      "subdomain": "Full Stack Development"
+    },
+    {
+      "id": 8,
+      "title": "Task Management App",
+      "description": "Trello-like task manager with drag-and-drop, teams, and progress tracking",
+      "price": 799,
+      "subdomain": "Frontend Development"
+    }
+  ],
+  "data-science": [
+    {
+      "id": 9,
+      "title": "Student Result Prediction",
+      "description": "ML model to predict student performance based on various factors and historical data",
+      "price": 899,
+      "subdomain": "Machine Learning"
+    },
+    {
+      "id": 10,
+      "title": "Sales Forecasting System",
+      "description": "Time series analysis for predicting future sales trends and patterns",
+      "price": 999,
+      "subdomain": "Big Data Analytics"
+    },
+    {
+      "id": 11,
+      "title": "Traffic Pattern Analysis",
+      "description": "Analyze and visualize traffic data to identify patterns and congestion points",
+      "price": 899,
+      "subdomain": "Data Visualization"
+    },
+    {
+      "id": 12,
+      "title": "Fake News Detection",
+      "description": "NLP-based system to classify and detect fake news articles with high accuracy",
+      "price": 1099,
+      "subdomain": "Data Mining"
+    },
+    {
+      "id": 13,
+      "title": "Movie Recommendation System",
+      "description": "Collaborative filtering system for personalized movie recommendations",
+      "price": 899,
+      "subdomain": "Machine Learning"
+    },
+    {
+      "id": 14,
+      "title": "Customer Churn Prediction",
+      "description": "Predict customer churn using historical data and behavioral patterns",
+      "price": 999,
+      "subdomain": "Business Intelligence"
+    },
+    {
+      "id": 15,
+      "title": "Stock Price Analysis",
+      "description": "Analyze stock market trends and predict price movements using ML algorithms",
+      "price": 1199,
+      "subdomain": "Big Data Analytics"
+    }
+  ],
+  "artificial-intelligence": [
+    {
+      "id": 16,
+      "title": "College Helpdesk Chatbot",
+      "description": "AI chatbot to answer student queries about college facilities, courses, and events",
+      "price": 999,
+      "subdomain": "Natural Language Processing"
+    },
+    {
+      "id": 17,
+      "title": "Face Mask Detection",
+      "description": "Real-time face mask detection using deep learning and computer vision",
+      "price": 1099,
+      "subdomain": "Computer Vision"
+    },
+    {
+      "id": 18,
+      "title": "Resume Screening AI",
+      "description": "Automated resume parser and screener using NLP and keyword extraction",
+      "price": 999,
+      "subdomain": "Natural Language Processing"
+    },
+    {
+      "id": 19,
+      "title": "Text Summarizer",
+      "description": "Extractive and abstractive text summarization using transformer models",
+      "price": 899,
+      "subdomain": "Natural Language Processing"
+    },
+    {
+      "id": 20,
+      "title": "Handwritten Digit Recognition",
+      "description": "CNN-based model for recognizing handwritten digits with high accuracy",
+      "price": 799,
+      "subdomain": "Deep Learning"
+    },
+    {
+      "id": 21,
+      "title": "Emotion Detection System",
+      "description": "Real-time emotion recognition from facial expressions using deep learning",
+      "price": 1199,
+      "subdomain": "Computer Vision"
+    },
+    {
+      "id": 22,
+      "title": "Spam Email Classifier",
+      "description": "ML-based email classifier to detect and filter spam messages",
+      "price": 799,
+      "subdomain": "Machine Learning"
+    },
+    {
+      "id": 23,
+      "title": "Voice Assistant",
+      "description": "Custom voice assistant with speech recognition and natural language understanding",
+      "price": 1299,
+      "subdomain": "Natural Language Processing"
+    }
+  ]
+}
