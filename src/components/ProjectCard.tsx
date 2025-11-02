@@ -25,22 +25,22 @@ const ProjectCard = ({
       transition={{ delay: index * 0.05 }}
       className="group"
     >
-      <div className="glass-card hover-lift p-6 rounded-2xl h-full flex flex-col">
-        <Badge className="w-fit mb-3 bg-accent text-accent-foreground">
+      <div className="glass-card hover-lift p-6 rounded-2xl h-full flex flex-col border border-border/50 group-hover:border-primary/30 transition-all shadow-sm hover:shadow-lg">
+        <Badge className="w-fit mb-3 bg-primary/10 text-primary border border-primary/20">
           {subdomain}
         </Badge>
-        <h3 className="font-heading font-semibold text-xl mb-2">{title}</h3>
-        <p className="text-muted-foreground text-sm mb-4 flex-grow">
+        <h3 className="font-heading font-semibold text-xl mb-2 group-hover:text-primary transition-colors">{title}</h3>
+        <p className="text-muted-foreground text-sm mb-4 flex-grow leading-relaxed">
           {description}
         </p>
-        <div className="flex items-center justify-between">
+        <div className="flex items-center justify-between pt-4 border-t border-border/50">
           <div className="flex items-center text-primary font-bold text-2xl">
             <IndianRupee className="h-5 w-5" />
             {price}
           </div>
           <Button
             size="sm"
-            className="gradient-primary text-white"
+            className="gradient-primary text-white shadow-md hover:shadow-lg transition-shadow"
             onClick={() => {
               window.scrollTo({ top: document.body.scrollHeight, behavior: "smooth" });
             }}

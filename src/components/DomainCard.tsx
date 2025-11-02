@@ -27,16 +27,15 @@ const DomainCard = ({ id, title, description, icon, index }: DomainCardProps) =>
       transition={{ delay: index * 0.1 }}
       className="group"
     >
-      <div className="glass-card hover-lift p-8 rounded-2xl h-full flex flex-col">
-        <div className="bg-gradient-primary rounded-xl w-16 h-16 flex items-center justify-center mb-6">
-          <IconComponent className="h-8 w-8 text-white" />
+      <div className="glass-card hover-lift p-8 rounded-2xl h-full flex flex-col border border-border/50 group-hover:border-primary/30 transition-all shadow-md">
+        <div className="bg-gradient-primary rounded-xl w-20 h-20 flex items-center justify-center mb-6 shadow-lg">
+          <IconComponent className="h-10 w-10 text-white" />
         </div>
-        <h3 className="font-heading font-semibold text-2xl mb-3">{title}</h3>
-        <p className="text-muted-foreground mb-6 flex-grow">{description}</p>
+        <h3 className="font-heading font-semibold text-2xl mb-3 group-hover:text-primary transition-colors">{title}</h3>
+        <p className="text-muted-foreground mb-6 flex-grow leading-relaxed">{description}</p>
         <Button
           asChild
-          variant="outline"
-          className="group-hover:bg-primary group-hover:text-white transition-all"
+          className="gradient-primary text-white shadow-md group-hover:shadow-lg transition-all"
         >
           <Link to={`/domains/${id}`} className="flex items-center">
             Explore Projects

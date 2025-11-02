@@ -8,6 +8,13 @@ const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const location = useLocation();
 
+  // Check if we're on a page that needs solid navbar background
+  const isDomainDetailPage = location.pathname.startsWith("/domains/") && 
+    location.pathname !== "/domains";
+  
+  const needsSolidBg = isDomainDetailPage || location.pathname === "/about" || 
+    location.pathname === "/contact" || location.pathname === "/testimonials";
+
   useEffect(() => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 20);
@@ -27,7 +34,7 @@ const Navbar = () => {
   return (
     <nav
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled
+        isScrolled || needsSolidBg
           ? "bg-white/95 backdrop-blur-md shadow-md"
           : "bg-transparent"
       }`}

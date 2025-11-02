@@ -23,10 +23,10 @@ const TestimonialCard = ({
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: index * 0.1 }}
-      className="glass-card p-6 rounded-2xl hover-lift"
+      className="glass-card p-6 rounded-2xl hover-lift border border-border/50 shadow-sm hover:shadow-lg transition-all"
     >
-      <Quote className="h-8 w-8 text-primary mb-4" />
-      <p className="text-foreground mb-4 italic">"{review}"</p>
+      <Quote className="h-8 w-8 text-primary mb-4 opacity-70" />
+      <p className="text-foreground mb-4 italic leading-relaxed">"{review}"</p>
       <div className="flex items-center mb-2">
         {[...Array(5)].map((_, i) => (
           <Star
