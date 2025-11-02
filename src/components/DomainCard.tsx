@@ -29,7 +29,7 @@ const DomainCard = ({ id, title, description, icon, index }: DomainCardProps) =>
     >
       <div className="glass-card hover-lift p-8 rounded-2xl h-full flex flex-col border border-border/50 group-hover:border-primary/30 transition-all shadow-md">
         <div className="bg-gradient-primary rounded-xl w-20 h-20 flex items-center justify-center mb-6 shadow-lg">
-          <IconComponent className="h-10 w-10 text-white" />
+          <IconComponent className="h-10 w-10 text-primary" />
         </div>
         <h3 className="font-heading font-semibold text-2xl mb-3 group-hover:text-primary transition-colors">{title}</h3>
         <p className="text-muted-foreground mb-6 flex-grow leading-relaxed">{description}</p>

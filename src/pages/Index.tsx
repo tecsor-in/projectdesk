@@ -239,8 +239,8 @@ const Index = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8 relative">
             {/* Connecting Line */}
-            <div className="hidden md:block absolute top-16 left-0 right-0 h-0.5 bg-gradient-to-r from-primary via-secondary to-primary opacity-30"></div>
-            
+            {/* <div className="hidden md:block absolute top-16 left-0 right-0 h-0.5 bg-gradient-to-r from-primary via-secondary to-primary opacity-30"></div>
+             */}
             {process.map((item, index) => (
               <motion.div
                 key={item.step}
@@ -251,7 +251,7 @@ const Index = () => {
                 className="relative"
               >
                 <div className="text-center">
-                  <div className="bg-gradient-primary text-blue rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-6 text-2xl font-bold shadow-lg relative z-10">
+                  <div className="bg-gradient-primary text-primary rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-6 text-2xl font-bold shadow-lg relative z-10">
                     {item.step}
                   </div>
                   <h3 className="font-heading font-semibold text-xl mb-3">
@@ -293,7 +293,7 @@ const Index = () => {
               >
                 <div className="glass-card p-8 rounded-2xl hover-lift text-center border border-border/50">
                   <div className="bg-gradient-primary rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-6 shadow-lg">
-                    <feature.icon className="h-10 w-10 text-white" />
+                    <feature.icon className="h-10 w-10 text-primary" />
                   </div>
                   <h3 className="font-heading font-semibold text-xl mb-3">
                     {feature.title}
@@ -420,7 +420,7 @@ const Index = () => {
                   asChild
                   size="lg"
                   variant="outline"
-                  className="border-2 border-white text-white hover:bg-white hover:text-primary font-semibold text-lg h-14 px-8"
+                  className="border-2 border-white text-primary hover:bg-white/90 hover:text-primary font-semibold text-lg h-14 px-8"
                 >
                   <Link to="/domains">Browse Projects</Link>
                 </Button>

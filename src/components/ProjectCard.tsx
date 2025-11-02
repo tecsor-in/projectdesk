@@ -42,7 +42,7 @@ const ProjectCard = ({
             size="sm"
             className="gradient-primary text-white shadow-md hover:shadow-lg transition-shadow"
             onClick={() => {
-              window.scrollTo({ top: document.body.scrollHeight, behavior: "smooth" });
+              window.location.href = "https://forms.gle/ZigELP97DJMmoV8f6";
             }}
           >
             Get This

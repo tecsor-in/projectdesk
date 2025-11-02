@@ -26,7 +26,7 @@ const Contact = () => {
   };
 
   const handleWhatsApp = () => {
-    window.open("https://wa.me/919876543210", "_blank");
+    window.open("https://wa.me/7671885574", "_blank");
   };
 
   return (
@@ -73,7 +73,7 @@ const Contact = () => {
                     </div>
                     <div>
                       <h3 className="font-semibold mb-1">Phone</h3>
-                      <p className="text-muted-foreground">+91 98765 43210</p>
+                      <p className="text-muted-foreground">+91 7671885574</p>
                     </div>
                   </div>
 
@@ -84,7 +84,7 @@ const Contact = () => {
                     <div>
                       <h3 className="font-semibold mb-1">Email</h3>
                       <p className="text-muted-foreground">
-                        info@projectdesk.com
+                        contact.projectdesk@gmail.com
                       </p>
                     </div>
                   </div>
